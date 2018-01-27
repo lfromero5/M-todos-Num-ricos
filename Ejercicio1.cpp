@@ -72,7 +72,7 @@ int main()
         arr[i][0] = u0(x[i]);
     }
 
-    for (int n = 1; n <= K; n++)    ////    Метод прогонки
+    for (int n = 1; n <= K; n++)    //    Metodo de barrido (Метод прогонки)
     {
         for (int i = 1; i < N; i++)
         {
@@ -95,7 +95,7 @@ int main()
         }
     }
 
-    cout << " ";                          /////   Вывод
+    cout << " ";                          //   Conclusion (Вывод)
     for (int i = 0; i <= N; i++)
     {
         cout << " " << x[i];
